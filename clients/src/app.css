@@ -1,0 +1,284 @@
+.container{
+   
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+
+    
+}
+    .overflowdisplay{
+        display: flex;
+        background-color: white;
+        position:absolute;
+        width: 97vw;
+        height: 95vh;
+       margin: 0px;
+
+    }
+
+
+.menuinput{
+    border: red;
+    height: 50px;
+    background-color: #f2f2f2;
+    
+}
+.menuinput:focus{
+    outline: none;
+}
+
+.threedot{
+    width: 10rem;
+    display: none;
+        left: 4rem;
+         height: 15rem;
+         position: absolute;
+         background-color:white;
+         box-shadow: 11px 5px 5px 3px rgba(0,0,0,0.66)
+}
+
+.dot{
+    width: 10rem;
+        left: 20vw;
+         height: 15rem;
+         position: absolute;
+         background-color:white;
+         box-shadow: 11px 5px 5px 3px rgba(0,0,0,0.66)
+}
+
+@media screen and (max-width: 1100px) {
+    .dot{
+     left: 10vw;
+    }
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    margin: 10px;
+    background-color: #00bfa5;
+    height: 10rem;
+    
+    
+}
+
+li{
+    padding: 10px;
+}
+
+.dialog{
+    background-color: rgba(0,0,0,0.5);
+    color: #ddc7c7;
+    width: 40rem;
+    height: 20rem;
+    margin: 10rem;
+    box-shadow: #00bfa5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    
+    
+}
+ol{
+    font-size: 20px;
+    margin: 50px;
+
+}
+
+ol li{
+   font-family: 'Courier New', Courier, monospace; 
+   margin-top: 0px;
+}  
+
+
+
+.googlegogin{
+    
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 30px;
+
+
+}
+
+.profile{
+    
+    position: absolute;
+    background-color: white;
+    width: 31.5vw;
+    height: 80vh;
+    margin-top: 2rem;
+
+
+}
+.profilec{
+    
+    position: absolute;
+    background-color: blue;
+    width: 30vw;
+    height: 87vh;
+    margin-top: 2rem;
+    display: none;
+
+}
+.pheader{
+    background-color: rgb(12, 107, 63);
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    margin: auto;
+    
+}
+.prfl{
+    margin: 10px;
+    margin-top: 5rem;
+}
+.pfotu{
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selmon{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+.narea{
+    height: 5rem;
+    margin: 0px;
+
+}
+.yname{
+    font-size: 15px;
+    color: #0cc990;
+}
+.pname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+}
+.prgf{
+    font-size: 15px;
+    background-color: #e9d6d6;
+    padding: 20px;
+}
+
+.flist{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid rgb(56, 52, 52);
+    margin: 8px;
+    height: 40px;
+    background-color: rgb(199, 193, 193);
+  
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.messege{
+    height:80vh;
+    width: 100%;
+    background-color: #faf9f9;
+    overflow: scroll;
+   
+    
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d2e3d3
+
+}
+.emoji{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.chatinput{
+    width: 50vw;
+    height: 37px;
+    outline: none;
+    border: none;
+    background-color: #f2f3f2;
+    font-size: 22px;
+    border-radius: 20px;
+    text-align:center;
+}
+
+.chatmessege{
+    background-color: rgb(161, 236, 161);
+    max-width: 60%;
+    width: fit-content;
+    display: flex;
+    align-items: flex-end;
+justify-content: center;
+padding: 10px;
+margin: 10px;
+border-radius: 30px;
+margin-left: 50%;
+
+}
+
+.mymessage{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    height: auto;
+}
+
+
+.sendermessege{
+    background-color: rgb(74, 175, 74);
+    max-width: 60%;
+    width: fit-content;
+    display: flex;
+    align-items: flex-end;
+justify-content: center;
+padding: 10px;
+margin: 10px;
+border-radius: 30px;
+;
+
+
+}
+
+.time{
+    font-size: 11px;
+    margin-left: 6px;
+    align-items: flex-end;
+
+    word-wrap: break-word ;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 6px;
+   
+}
+
+::-webkit-scrollbar-thumb{
+background-color: rgb(202, 190, 190);
+border-radius: 50px;
+}

@@ -1,8 +1,15 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
+ 
+ 
+const connection = async(url) =>{
 
-
-   export const connection = () =>{
-      mongoose.connect('mongodb://127.0.0.1:27017/whatsapp');
-
-
+   try {
+     await  mongoose.connect(url,{ useUnifiedTopology: true, useNewUrlParser: true})
+       console.log('database connected successs')
+   } catch (error) {
+      console.log('eror while connevcting with the database  ' , error.message) 
+   }
 }
+
+
+export default connection ;
